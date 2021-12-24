@@ -12,9 +12,9 @@
         <h2>TASK: {{ task.task }}</h2>
         <p>DETAIL: {{ task.detail }}</p>
         <p>STATUS: {{ task.status }}</p>
-        <a href="/detail/{{ task.task_id }}" role="button">Detail</a>
-        <a href="/update/{{ task.task_id }}" role="button">Update</a>
-        <a href="/delete/{{ task.task_id }}" role="button">Delete</a>
+        <a href="/detail/{{ task.id }}" role="button">Detail</a>
+        <a href="/update/{{ task.id }}" role="button">Update</a>
+        <a href="/delete/{{ task.id }}" role="button">Delete</a>
     {% endfor %}
 </body>
 </html>
