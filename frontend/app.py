@@ -17,7 +17,7 @@ app.config["SECRET_KEY"] = "123456789"
 app.config["WTF_CSRF_ENABLED"] = True
 
 # Difine API url
-backend_url = os.getenv("BACKEND_URL", "http://localhost:5000")
+backend_url = os.getenv("BACKEND_URL", "http://backend:5001")
 task_url = f"""{backend_url}/tasks"""
 
 '''
