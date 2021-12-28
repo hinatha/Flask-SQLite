@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        ".venv/lib"
+    ],
+    "python.autoComplete.extraPaths": [
+        ".venv/lib"
+    ]
+}
